@@ -1,0 +1,29 @@
+/*GENERAL BEGIN*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+ul {list-style: none;}
+
+a {text-decoration: none;}
+
+@font-face {
+	font-family: OpenSans;
+	src:url(../fonts/OpenSans.ttf);
+}
+
+body {
+	font: 13px OpenSans, Tahoma, sans-serif;
+}
+
+
+
+/*GENERAL END*/
+
+/*HEADER*/
+
+header {
+    background: url(../img/cover.jpg) no-repeat 50% 0;
+    
+}
