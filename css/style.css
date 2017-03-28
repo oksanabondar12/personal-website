@@ -17,14 +17,13 @@ body {
 	font: 13px OpenSans, Tahoma, sans-serif;
 }
 
-
-
 /*GENERAL END*/
+
 
 /*HEADER*/
 
 .home {
-	height: 656px;
+	height: 645px;
     background: url(../img/cover.jpg) no-repeat 50% 0px;
     background-color: #222;
     background-attachment: fixed;
@@ -86,3 +85,47 @@ body {
 .angle-down::before {
     content: "\f107";
 }
+
+.our-services {
+	height: 656px;
+	position: relative;
+}
+.navigation {
+	position: relative;
+    width: 100%;
+    z-index: 10;
+    background: #fff;
+    padding: 0 50px;
+    box-sizing: border-box;
+    height: 40px;
+    border-bottom: 1px solid silver;
+}
+
+.navbar-header {
+	display: block;
+	float: left;
+}
+
+.navbar-header a {
+	font-size: 20px;
+	line-height: 40px;
+}
+
+nav {
+	width: 900px;
+	margin-left: 595px;
+}
+.menu li {
+	float: left;
+	margin-left: 5px;
+}
+
+.menu a {
+    line-height: 40px;
+    font-size: 11px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #222;
+    padding: 15px;
+}
+
