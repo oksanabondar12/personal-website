@@ -22,8 +22,11 @@ body {
 
 /*HEADER*/
 
+.home, .our-services, .works, .skills, .our-team, .contacts {
+    min-height: 645px;
+}
+
 .home {
-	min-height: 645px;
     background: url(../img/cover.jpg) no-repeat 50% 0px;
     background-color: #222;
     background-attachment: fixed;
@@ -86,7 +89,6 @@ body {
 }
 
 .our-services {
-	min-height: 656px;
 	position: relative;
 	background: #f5f5f5;
 }
