@@ -115,6 +115,7 @@ nav {
 	width: 900px;
 	margin-left: 595px;
 }
+
 .menu li {
 	float: left;
 	margin-left: 5px;
@@ -147,10 +148,8 @@ nav {
     font-size: 18px;
 }
 
-.we-do {
-	position: absolute;
-    width: 100%;
-    top: 15%;
+.description {
+    margin-top: 100px;
     text-align: center;
 }
 
@@ -158,7 +157,7 @@ nav {
     margin-right: 20px;
     margin-left: 58px;
     position: absolute;
-    bottom: -60px;
+    bottom: 8px;
 }
 
 .col-1, .col-2, .col-3, .col-4 {
