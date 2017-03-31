@@ -22,7 +22,7 @@ body {
 
 /*HEADER*/
 
-.home, .our-services, .works, .skills, .our-team, .contacts {
+.home, .our-services, .works, .our-team, .contacts {
     min-height: 645px;
 }
 
@@ -37,12 +37,11 @@ body {
 	background-color: rgba(44, 62, 80, 0.3);
     background-image: url(../img/pattern.png);
     background-repeat: repeat;
-    height: 100%;
     left: 0;
     position: absolute;
     top: 0;
     width: 100%;
-    z-index: 0;
+    height: 100%;
 }
 
 .welcome {
@@ -72,8 +71,8 @@ body {
 
 .scroll-down {
     position: absolute;
-    left: 50%;
-    bottom: 20px;
+    left: 48%;
+    bottom: 25px;
     border: 2px solid #fff;
     border-radius: 50%;
     height: 50px;
@@ -84,8 +83,8 @@ body {
     text-align: center;
 }
 
-.angle-down::before {
-    content: "\f107";
+.scroll-down span {
+    color: #fff;
 }
 
 .our-services {
@@ -113,7 +112,7 @@ body {
 
 nav {
 	width: 900px;
-	margin-left: 595px;
+	margin-left: 713px;
 }
 
 .menu li {
@@ -130,6 +129,29 @@ nav {
     padding: 15px;
 }
 
+.flex-container-1 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 70px;
+    text-align: center;
+}
+
+.flex-item-1 {
+    width: 262px;
+    height: 258px;
+    background-color:#fff;
+    margin: 0 37px;
+}
+
+.flex-item-1 h3{
+    font-size: 13px;
+    letter-spacing: 1px;
+    margin: 0 0 15px;
+    color: #000;
+    text-transform: uppercase;
+    padding: 30px;
+}
+
 .block-title {
     font-weight: 800;
     font-size: 30px;
@@ -143,34 +165,104 @@ nav {
     margin: 30px auto;
 }
 
-.block-subtitle {
+.pfblock-subtitle {
     font-style: normal;
     font-size: 18px;
 }
 
+
+
 .description {
-    margin-top: 100px;
+    margin: 50px 30px 0;
     text-align: center;
 }
 
-.row {
-    margin-right: 20px;
-    margin-left: 58px;
-    position: absolute;
-    bottom: 8px;
+.flex-container {
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    position: relative;
 }
 
-.col-1, .col-2, .col-3, .col-4 {
+.flex-item {
+    width: 400px;
+    margin: 10px 22px;
+}
+
+.our-team {
+    background-color:#3498db
+}
+
+.team-block li {
     float: left;
-    width: 293px;
-    height: 278px;
-    padding: 10px;
-   
+    text-decoration: none;
+    margin-top: 150px;
+    margin-right: 200px;
 }
 
-.iconbox {
-    background: #fff;
-    border-bottom: 1px solid #d4d4d4;
+.member-1 {
+    width: 200px;
+    height: 200px;
+    background: url(../img/member-1.jpg) no-repeat center;
+    border: 1px solid #939393;
+    border-radius: 100px;
+    margin-left: 100px;
+}   
+
+.member-2 {
+    width: 200px;
+    height: 200px;
+    background: url(../img/member-2.jpg) no-repeat center;
+    border: 1px solid #939393;
+    border-radius: 100px;
+    margin: 20px;
+}   
+
+.member-3 {
+    width: 200px;
+    height: 200px;
+    background: url(../img/member-3.jpg) no-repeat center;
+    border: 1px solid #939393;
+    border-radius: 100px;
+    margin: 20px;
+}   
+
+footer {
+    background: #222;
     text-align: center;
-    
+    padding: 40px 0;
+    color: #FFF;
+}
+
+.social-links {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 20px;
+}
+
+.social-links li {
+    display: inline-block;
+}
+
+.social-links li a {
+    width: 27px;
+	height: 27px;
+	display: block;
+    background: url(../img/social-icons.png) no-repeat 0 0;
+}
+
+.social-links li a.vk {
+    background-position: -106px -29px;
+}
+
+.social-links li a.fb {
+     background-position: -26px 0;
+}
+.social-links li a.google {
+     background-position: -52px -30px;
+}
+.social-links li a.tw {
+     background-position: 0 0;
+}
+.social-links li a.preent {
+     background-position: -80px 0;
 }
