@@ -1,0 +1,26 @@
+@media screen and (min-width: 750px) and (max-width: 1024px) { 
+    
+    .home-overly {
+        height: 143%;
+    }
+
+    .welcome h1 {
+        font: 800 60px/1.2 Raleway, sans-serif;
+    }
+    
+    .start {
+        font-size: 24px;
+    }
+    
+    .scroll-down {
+        left: 47%;
+        margin-bottom: 11px;
+    }
+    
+    .menu {
+        display: none;
+    }
+    
+    
+    
+}
