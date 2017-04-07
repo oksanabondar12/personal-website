@@ -3,11 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" media="(max-width:800px) and (min-width:320px)" href="css/responsive.css"/>
-    <link rel="stylesheet" href="css/style.css"/>
     <title>Web site</title>
+    <link href="css/font-awesome.min.css" rel="stylesheet" media="screen">
+	<link href="css/simple-line-icons.css" rel="stylesheet" media="screen">
+	<link href="css/animate.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" media="(max-width: 800px)" href="css/responsive.css"/>
+    <script src="js/modernizr.custom.js"></script>
 </head>
 <body>
+    
+    <div id="preloader">
+		<div id="status"></div>
+	</div>
+	
 <div class="wrapper">
     <section class="home" id="home">
         <div class="home-overly"></div>
@@ -16,16 +25,25 @@
             <h1>WEB DEVELOPERS TEAM</h1>
             <div class="start"><p>creating modern and responsive Web design</p></div>
         </div>
+        <a href="#our-services">
         <div class="scroll-down">
-            <span class="glyphicon glyphicon-chevron-down"></span>
+           <span>
+                <i class="fa fa-angle-down fa-2x"></i>
+            </span>
         </div>
+        </a>
+        
     </section>
+    
+
+    
+    
     <section class="our-services" id="our-services">
         <div class="navigation">
             <div class="navbar-header">
-                <a class="navbar-brand" href="index">LOGO</a>
+                <a class="navbar-brand" href="index">OKSANA</a>
             </div>
-        <nav>
+        <nav class="navbar navbar-custom" role="navigation">
             <ul class="menu">
                 <li><a href="#home">home</a></li>
                 <li><a href="#our-services">our services</a></li>
@@ -91,12 +109,20 @@
 			</div>
         </div>
     <div class="flex-container">
-      <img class="flex-item" src="img/item-1.jpg" alt="item-1">
+ 
+          <img class="flex-item" src="img/item-1.jpg" alt="item-1">
+    
+    
       <img class="flex-item" src="img/item-2.jpg" alt="item-2">
+
       <img class="flex-item" src="img/item-3.jpg" alt="item-3">
+
       <img class="flex-item" src="img/item-4.jpg" alt="item-4">
+
       <img class="flex-item" src="img/item-5.jpg" alt="item-5">
+
       <img class="flex-item" src="img/item-6.jpg" alt="item-6">
+     
     </div>
     </section>
     <section class="our-team" id="our-team">
@@ -109,12 +135,52 @@
 				to meet and greet new partners.</p>
 			</div>
         </div>
-        <div class="team">
-            <ul class="team-block">
-                <li class="member-1"></li>
-                <li class="member-2"></li>
-                <li class="member-3"></li>
-            </ul>
+        <div class="team-info">
+            <div>
+            <div class="img">
+                <img src="img/member-1.jpg" alt="member-1">
+            </div>
+            <h4>John Doe</h4><br>
+            <span>Product manager</span>
+            <div class="social-contacts">
+                <ul>
+                    <li><a href="https://vk.com/" class="vkontakte"></a></li>
+                    <li><a href="https://www.facebook.com/" class="facebook"></a></li>
+                    <li><a href="https://plus.google.com/" class="googleplus"></a></li>
+                    <li><a href="https://twitter.com/" class="twitter"></a></li>
+                </ul>
+            </div>
+            </div>
+        <div>
+          <div class="img">
+                <img src="img/member-1.jpg" alt="member-1">
+            </div>
+            <h4>John Doe</h4><br>
+            <span>Product manager</span>
+            <div class="social-contacts">
+                <ul>
+                    <li><a href="https://vk.com/" class="vkontakte"></a></li>
+                    <li><a href="https://www.facebook.com/" class="facebook"></a></li>
+                    <li><a href="https://plus.google.com/" class="googleplus"></a></li>
+                    <li><a href="https://twitter.com/" class="twitter"></a></li>
+                </ul>
+            </div> 
+            </div>
+            <div>
+            <div class="img">
+                <img src="img/member-1.jpg" alt="member-1">
+            </div>
+            <h4>John Doe</h4><br>
+            <span>Product manager</span>
+            <div class="social-contacts">
+                <ul>
+                    <li><a href="https://vk.com/" class="vkontakte"></a></li>
+                    <li><a href="https://www.facebook.com/" class="facebook"></a></li>
+                    <li><a href="https://plus.google.com/" class="googleplus"></a></li>
+                    <li><a href="https://twitter.com/" class="twitter"></a></li>
+                </ul>
+            </div>
+        </div>
         </div>
     </section>
     <section class="contacts" id="contacts">
@@ -123,13 +189,38 @@
             <div class="block-line"></div>
 		</div>
 		<div class="maps-wrap">
-		    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2572.9842808643098!2d24.02524311570949!3d49.8427528793962!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add7274889125%3A0xb90bd5a00209d1aa!2sSvobody+Ave%2C+L&#39;viv%2C+Lviv+Oblast!5e0!3m2!1sen!2sua!4v1490951508816" width="500" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+		    <iframe  onClick="style.pointerEvents='none'" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2572.9842808643098!2d24.02524311570949!3d49.8427528793962!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add7274889125%3A0xb90bd5a00209d1aa!2sSvobody+Ave%2C+L&#39;viv%2C+Lviv+Oblast!5e0!3m2!1sen!2sua!4v1490951508816" width="700" height="370" frameborder="0" style="border:0" allowfullscreen></iframe>
         </div>
+        <div class="form-wrap">
+    <form class="form-style-9">
+    <ul>
+        <li>
+            <input type="text" name="field1" class="field-style field-split align-left" placeholder="Name" />
+            <input type="email" name="field2" class="field-style field-split align-right" placeholder="Email" />
+    
+        </li>
+        <li>
+            <input type="text" name="field3" class="field-style field-split align-left" placeholder="Phone" />
+            <input type="url" name="field4" class="field-style field-split align-right" placeholder="Website" />
+        </li>
+        <li>
+            <input type="text" name="field3" class="field-style field-full align-none" placeholder="Subject" />
+        </li>
+        <li>
+            <textarea name="field5" class="field-style" placeholder="Message"></textarea>
+        </li>
+        <li>
+            <input type="submit" value="Send Message" />
+        </li>
+    </ul>
+    </form>
+        </div>
+        
     </section>
     <footer>
         <div>
             <ul class="social-links">
-                <li><a href="https://vk.com/" class="vk" ></a></li>
+                <li><a href="https://vk.com/" class="vk"></a></li>
                 <li><a href="https://www.facebook.com/" class="fb"></a></li>
                 <li><a href="https://plus.google.com/" class="google"></a></li>
                 <li><a href="https://twitter.com/" class="tw"></a></li>
@@ -141,5 +232,13 @@
         </div>
     </footer>
 </div>
+
+<div class="scroll-up" style="display: none;">
+		<a href="#home"><i class="fa fa-angle-up"></i></a>
+</div>
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/custom.js"></script>
+
 </body>
 </html>
