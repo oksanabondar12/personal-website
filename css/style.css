@@ -532,3 +532,8 @@ footer {
 	top: 50%;
 	width: 200px;
 }
+/*formDone*/
+#messageDone{
+    margin-left: 50px;
+    margin-bottom: 12px;
+}

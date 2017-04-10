@@ -13,14 +13,16 @@ function sendForm(e) {
                 url: "https://formspree.io/opokhmurska@gmail.com",
                 method: "POST",
                 data: {
-                    clientName: $('#client-name').val(),
-                    clientEmail: $('#client-email').val(),
-                    comment: $('#comment').val()
+                    clientName: $('#name').val(),
+                    clientEmail: $('#email').val(),
+                    clientPhone: $('#phone').val(),
+                    clientWebsite: $('#website').val(),
+                    message: $('#message').val()
                 },
                 dataType: "json"
             })
             .done(function() {
-                $('#message').html('Thank you for contacting us!');
+                $('#messageDone').html('Thank you for contacting us!');
             });
     }
 

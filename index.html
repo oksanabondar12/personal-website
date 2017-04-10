@@ -182,28 +182,28 @@
 		    <iframe  onClick="style.pointerEvents='none'" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2572.9842808643098!2d24.02524311570949!3d49.8427528793962!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add7274889125%3A0xb90bd5a00209d1aa!2sSvobody+Ave%2C+L&#39;viv%2C+Lviv+Oblast!5e0!3m2!1sen!2sua!4v1490951508816" width="700" height="370" frameborder="0" style="border:0" allowfullscreen></iframe>
         </div>
         <div class="form-wrap">
+             <p id="messageDone"></p>
     <form class="form-style-9">
     <ul>
         <li>
-            <input type="text" name="field1" class="field-style field-split align-left" placeholder="Name" />
-            <input type="email" name="field2" class="field-style field-split align-right" placeholder="Email" />
+            <input type="text" name="field1" id="name"  class="field-style field-split align-left" placeholder="Name" />
+            <input type="email" name="field2" id="email" class="field-style field-split align-right" placeholder="Email" required />
     
         </li>
         <li>
-            <input type="text" name="field3" class="field-style field-split align-left" placeholder="Phone" />
-            <input type="url" name="field4" class="field-style field-split align-right" placeholder="Website" />
+            <input type="text" name="field3" id="phone" class="field-style field-split align-left" placeholder="Phone" />
+            <input type="url" name="field4" id="website" class="field-style field-split align-right" placeholder="Website" />
+        </li>
+
+        <li>
+            <textarea name="field5" id="message" class="field-style" placeholder="Message"></textarea>
         </li>
         <li>
-            <input type="text" name="field3" class="field-style field-full align-none" placeholder="Subject" />
-        </li>
-        <li>
-            <textarea name="field5" class="field-style" placeholder="Message"></textarea>
-        </li>
-        <li>
-            <input type="submit" id="btn-submi" value="Send Message" />
+            <input type="submit" id="btn-submit" value="Send Message" />
         </li>
     </ul>
     </form>
+   
         </div>
         
     </section>
@@ -226,9 +226,9 @@
 <div class="scroll-up" style="display: none;">
 		<a href="#home"><i class="fa fa-angle-up"></i></a>
 </div>
-	<script src="js/jquery-1.11.1.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/custom.js"></script>
-
+	<script src="js/scripts/jquery-1.11.1.min.js"></script>
+	<script src="js/scripts/bootstrap.min.js"></script>
+	<script src="js/scripts/custom.js"></script>
+    <script src="js/form.js"></script>
 </body>
 </html>
