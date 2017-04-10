@@ -21,6 +21,41 @@
         display: none;
     }
     
+     .first-title {
+         display: none;
+     }
     
+    .block-title-2 {
+    font-weight: 800;
+    font-size: 30px;
+    margin: 0 0 30px;
+    display: block;
+    }
+
+    .flex-container-1 {
+        /*width: 800px;
+        margin-right: 0;*/
+    }
     
+    .flex-container-1 .flex-item {
+        width: 100%;
+    }
+    
+    .team-info .img {
+    float: none;
+    }
+
+    .team-info>div {
+    width: 245px;
+    }
+
+    .maps-wrap iframe {
+    display: none;
+    }
+
+    .form-wrap{
+    width: auto;
+    float: none;
+    }
+
 }

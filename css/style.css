@@ -159,6 +159,7 @@ nav {
     flex-wrap: wrap;
     justify-content: space-around;
     text-align: center;
+    margin: 0 auto;
 }
 
 
@@ -187,6 +188,9 @@ nav {
     font-size: 30px;
     margin: 0 0 30px;
 }
+.block-title-2 {
+    display: none;
+}
 
 .block-line {
     background: rgba(135, 135, 135, 0.5);
@@ -198,7 +202,7 @@ nav {
 .pfblock-subtitle {
     font-style: normal;
     font-size: 18px;
-    margin-bottom: 53px;
+    margin-bottom: 117px;
 }
 
 .description {
