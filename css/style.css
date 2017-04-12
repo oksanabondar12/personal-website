@@ -18,7 +18,8 @@ a {text-decoration: none;}
 
 body {
 	font: 13px OpenSans, Tahoma, sans-serif;
-	max-width: 1500px
+	max-width: 1500px;
+	margin:0 auto;
 }
 
 /*.wrapper {
