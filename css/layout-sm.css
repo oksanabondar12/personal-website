@@ -37,6 +37,7 @@
      .form-wrap{
     width: auto;
     float: none;
+    position: inherit;
     }
     
     .flex-container .flex-item:nth-child(2), .flex-container .flex-item:nth-child(3),

@@ -18,7 +18,12 @@ a {text-decoration: none;}
 
 body {
 	font: 13px OpenSans, Tahoma, sans-serif;
+	max-width: 1500px
 }
+
+/*.wrapper {
+    max-width: 1400px;
+}*/
 
 /*GENERAL END*/
 
@@ -26,6 +31,7 @@ body {
 
 .home, .our-services, .works, .our-team, .contacts {
     min-height: 735px;
+    position: relative;
     /*margin: 32px 0px 0;*/
 }
 
@@ -122,6 +128,7 @@ body {
 	float: left;
 }
 
+
 .navbar-header a {
 	line-height: 51px;
 	font-weight: 700;
@@ -177,6 +184,11 @@ nav {
     color: #000;
     text-transform: uppercase;
     padding: 30px;
+}
+
+.icon-question, .icon-magic-wand, .icon-puzzle, .icon-badge {
+    font-size: 20px;
+    color: #222;
 }
 
 .flex-description {
@@ -258,14 +270,18 @@ nav {
 
 .maps-wrap{
     float: left;
-    width: 500px;
-    /*margin-right: 30px;*/
-    margin-left: 35px;
+    margin-right: 30px;
+    width: 100%;
+    /*margin-left: 35px;*/
 }
 
+
 .form-wrap{
-    /*width: 600px;*/
-    float: right;
+    /*width: 600px;
+    float: right;*/
+    position: absolute;
+    bottom: 193px;
+    right: 6%;
 }
 
 .form-style-9{
