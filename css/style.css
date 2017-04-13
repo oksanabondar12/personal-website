@@ -244,6 +244,15 @@ body {
 .our-team {
     background-color:#3498db
 }
+.carousel-indicators li { 
+        border-radius: 50%; 
+        height: 20px;
+        width: 20px;
+}
+.carousel-indicators .active {
+    height: 20px;
+    width: 20px;
+}
 
 .team-block li {
     float: left;
@@ -277,13 +286,10 @@ body {
     float: left;
     margin-right: 30px;
     width: 100%;
-    /*margin-left: 35px;*/
 }
 
 
 .form-wrap{
-    /*width: 600px;
-    float: right;*/
     position: absolute;
     bottom: 193px;
     right: 6%;
