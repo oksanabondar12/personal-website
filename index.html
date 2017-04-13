@@ -4,13 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web site</title>
+    <link rel="shortcut icon" href="/img/favicon.ico">
+    
+    
+    <link rel="stylesheet" href="css/bootstrap.css"/>
     <link href="css/font-awesome.min.css" rel="stylesheet" media="screen">
 	<link href="css/simple-line-icons.css" rel="stylesheet" media="screen">
-	<link href="css/animate.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/style.css"/>
     <link rel="stylesheet" href="css/layout-md.css"/>
-    <link rel="stylesheet" href="css/layout-sm.css"/>
-    <script src="js/modernizr.custom.js"></script>
+   <link rel="stylesheet" href="css/layout-sm.css"/>
+ 
 </head>
 <body>
     
@@ -36,12 +39,41 @@
         
     </section>
     <section class="our-services" id="our-services">
-        <div class="navigation">
+        
+        <div class="container container-wrap">
+
+      <!-- Static navbar -->
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          <div class="navbar-header">
+            
             <div class="navbar-header">
-                <a class="navbar-brand" href="index">OKSANA</a>
+                <a class="navbar-brand logo" href="index">OKSANA</a>
             </div>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse navbar-custom" aria-expanded="false" style="height: 1px;">
+            <ul class="menu nav navbar-nav navbar-right">
+              <li><a href="#home">home</a></li>
+                <li><a href="#our-services">our services</a></li>
+                <li><a href="#works">works</a></li>
+                <li><a href="#our-team">our team</a></li>
+                <li><a href="#contacts">contacts</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div><!--/.container-fluid -->
+      </nav>
+         </div>
+<!--        <div class="navigation">
+     
         <nav class="navbar navbar-custom" role="navigation">
-            <ul class="menu">
+
+            <ul id="navbar" aria-expanded="false" style="height: 1px;" class="menu">
                 <li><a href="#home">home</a></li>
                 <li><a href="#our-services">our services</a></li>
                 <li><a href="#works">works</a></li>
@@ -49,7 +81,8 @@
                 <li><a href="#contacts">contacts</a></li>
             </ul>
         </nav>
-        </div>
+        </div>-->
+       
         <div class="description">
         <h2 class="block-title">This is what we do</h2>
             <div class="block-line"></div>
@@ -229,8 +262,11 @@
 		<a href="#home"><i class="fa fa-angle-up"></i></a>
 </div>
 	<script src="js/scripts/jquery-1.11.1.min.js"></script>
+	
+   
+  
 	<script src="js/scripts/bootstrap.min.js"></script>
-	<script src="js/scripts/custom.js"></script>
+	<script src="js/custom.js"></script>
     <script src="js/form.js"></script>
 </body>
 </html>

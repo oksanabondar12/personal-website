@@ -10,10 +10,7 @@
     display: block;
     }
     
-    .menu {
-        display: none;
-    }
-    
+
     .maps-wrap iframe {
     display: none;
     }
@@ -34,10 +31,18 @@
     width: 100%;
     }
     
-     .form-wrap{
+    .form-wrap{
     width: auto;
     float: none;
     position: inherit;
+    }
+    
+    .form-style-9 {
+    width: 100%;
+    }
+    
+    .maps-wrap{
+    display: none;
     }
     
     .flex-container .flex-item:nth-child(2), .flex-container .flex-item:nth-child(3),

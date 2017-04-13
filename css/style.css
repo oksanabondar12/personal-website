@@ -22,10 +22,6 @@ body {
 	margin:0 auto;
 }
 
-/*.wrapper {
-    max-width: 1400px;
-}*/
-
 /*GENERAL END*/
 
 /*HEADER*/
@@ -106,8 +102,16 @@ body {
 	position: relative;
 	background: #f5f5f5;
 }
-
+.logo {
+    padding-right: 10px;
+    padding-top: 0;
+}
 /*menu*/
+.container-wrap {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
 .navigation {
     width: 100%;
     background: #fff;
@@ -139,16 +143,16 @@ body {
     color: #222;
 }
 
-nav {
+/*nav {
 	max-width: 900px;
 	float:right;
-}
+}*/
 
-.menu li {
+/*.menu li {
 	float: left;
 	margin-left: 5px;
 }
-
+*/
 .menu a {
     line-height: 51px;
     font-size: 11px;
@@ -285,8 +289,8 @@ nav {
     right: 6%;
 }
 
-.form-style-9{
-    max-width: 450px;
+.form-style-9 {
+    width: 450px;
     background: #FAFAFA;
     padding: 30px;
     margin: 0 auto;
